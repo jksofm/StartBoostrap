@@ -1,0 +1,295 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    line-height: 1.6rem;
+    scroll-behavior: smooth;
+
+}
+.navActive .nav-link{
+    color :rgb(255, 81, 0)!important;
+}
+
+/* header */
+
+header{
+    background-image: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%),url("./img/bg-masthead.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    z-index: 2;
+    position: relative;
+    padding-top: 200px;
+}
+.navbarStart{
+    width: 100%;
+    padding:0;
+    position: fixed ;
+    top: 0;
+    border-bottom: 1px solid rgba(168, 146, 146, 0.7);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(102, 97, 97, 0.5);
+    transition: 0.4s;
+}
+.transparent{
+    background-color:transparent !important;
+
+}
+.nav-link{
+    font-size:1.4rem;
+    font-weight: 600;
+    color: rgb(155, 142, 142) !important;
+}
+.nav-item{
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.nav-link:hover{
+    color: rgb(96, 112, 165)!important;
+}
+
+.navbar-brand{
+    display: block;
+    flex : 1;
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(161, 153, 153)!important;
+    transition: 0.4s;
+}
+.box-content{
+    
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+   
+  
+
+
+}
+.header-content  hr {
+  transform: translateX(72%);
+  display: block;
+}
+
+    
+
+
+.title{
+    color: white;
+    font-weight: 600;
+    font-size:4rem;
+    margin-bottom: 1.2rem;
+    display: block;
+    position: relative;
+}
+.line-throught{
+   
+    display: inline-block;
+    content: " ";
+    width: 40px;
+    height: 4px;
+    background-color: orangered;
+   text-align: center;
+   margin-bottom: 14px;
+   
+
+}
+
+.text-content{
+  color: rgb(138, 120, 120);
+  font-size: 1.6rem;
+  margin-bottom: 0.6rem;
+  font-weight: 600;
+  text-align: center;
+  
+
+}
+.bg-white{
+    background-color:white !important;
+}
+.text-white{
+    color: white !important;
+}
+.btn-find{
+    padding:12px;
+    font-size:1.4rem;
+    margin-top: 12px;
+    background-color: rgb(255, 81, 0);
+    border: none !important;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.text-black{
+    color : black !important;
+}
+
+
+/* sologan */
+.sologan{
+    background-color:#f4623a;
+  
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+.margin-bottom-12px{
+    margin-bottom: 40px;
+}
+/* service */
+.text-center{
+    text-align: center;
+}
+.serviceContent{
+    margin-top:20px;
+}
+.serviceContent i{
+    font-size: 3.6rem;
+    color:rgb(255, 81, 0);
+    margin-bottom: 12px;
+}
+.serviceContent h3 {
+    font-size: 2.4rem;
+    margin-bottom: 12px;
+}
+.serviceContent p {
+    font-size: 1.6rem;
+    line-height: 20px;
+   
+}
+.no-gutter{
+    padding-left: 0;
+   padding-right: 0;
+    
+}
+.service{
+    padding-top: 100px;
+    padding-left: 120px;
+   padding-right: 120px;
+   padding-bottom: 100px;
+}
+/* project */
+.project{
+    position: relative;
+}
+.project .project-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction:column;
+    
+}
+.project .nen{
+    background-color: rgba(202, 88, 35, 0.856);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;height: 100%;
+    display: none;
+    
+}
+.projectItem:hover .nen{
+display: block;
+cursor: pointer;
+}
+.project .nen h2{
+font-size: 1.6rem;
+color: rgb(175, 155, 155);
+}
+.project .nen p{
+    font-size:2.4rem;
+    color : white;
+    margin-top: 4px;
+    line-height:1.4rem;
+}
+/* download */
+.download{
+    text-align: center;
+    padding: 100px 60px;
+    background-color: rgba(29, 26, 26, 0.836);
+}
+.download h3{
+    color : white;
+    font-size: 3.4rem;
+    margin-bottom: 12px;
+}
+.download .btn-find{
+    border-radius: 30px;
+    padding: 16px;
+}
+/* contact */
+.contact{
+    padding: 100px 60px;
+}
+.contact-form{
+    width: 40%;
+    margin: 20px auto;
+}
+.contact-form input{
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    color: black !important;
+    font-weight: 600;
+    border : 1px solid rgba(0,0,0,0.4);
+}
+.contact textarea {
+    padding: 20px;
+    width: 100%;
+    outline:2px solid rgba(228, 23, 143, 0.4) ;
+    margin-bottom: 12px;
+    font-size : 1.4rem;
+}
+
+
+.contact-form input:focus{
+    outline: 2px solid rgba(228, 23, 143, 0.4);
+    
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.4);
+}
+.form-submit{
+    background-color:rgba(223, 94, 20, 0.856); 
+    color: white !important;
+    font-size : 1.6rem;
+    border-radius: 20px;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    font-weight: 600;
+}
+.contact-phone{
+    margin-top:50px;
+    width: 100%;
+    text-align: center;
+}
+.contact-phone i {
+font-size: 4rem;
+color:rgb(175, 155, 155);
+
+}
+.contact-phone p {
+font-size: 1.8rem;
+margin-top: 12px;
+}
+/* footer */
+footer{
+    background-color:rgba(148, 132, 132, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+footer p{
+    color : #6c757d;
+    font-size : 1.6rem;
+}
+.maucam{
+    color :rgb(255, 81, 0)!important;
+}
+

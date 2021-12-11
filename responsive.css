@@ -1,0 +1,68 @@
+@media (max-width: 992px){
+.navbar button{
+    color: white !important;
+    background-color: white;
+}
+.navbarStart{
+    background-color:rgb(231, 218, 218) !important;
+    text-align: center !important;
+}
+header hr {
+    display: none;
+}
+.contact-form{
+    width: 70%;
+}
+
+
+
+}
+
+
+@media (max-width: 768px){
+    .title{
+        font-size:2.4rem;
+    }
+    header{
+        padding-top: 160px;
+    }
+    .navbarStart .nav-item{
+        padding : 16px;
+     }
+     .navbarStart .nav-link{
+         font-size: 1.8rem;
+     }
+     .projectItem img{
+         width: 100%;
+     }
+     .contact-form{
+         width: 90%;
+     }
+    
+    
+    }
+
+
+
+ @media (max-width: 576px){
+     .navbarStart{
+         background-color: rgb(65, 56, 56)!important;
+     }
+        .navbarStart .nav-item{
+           padding : 16px;
+        }
+        .navbarStart .nav-link{
+            font-size: 1.8rem;
+        }
+        .contact-form{
+            width: 100%;
+        }
+        .service{
+            padding: 60px 80px;
+        }
+        .contact{
+            padding : 80px 40px
+        }
+        
+        
+        }
